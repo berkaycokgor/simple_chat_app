@@ -1,5 +1,5 @@
 from socket import *
-hostname = input("Write your local ip adress(cmd->ipconfig for Windows Users,terminal-> ifconfig for Linux)= ")
+hostname = input("Write your local ip adress(cmd->ipconfig for Windows Users,terminal-> ifconfig for Linux users)= ")
 sunucuAd = hostname
 sunucuPort = 12345
 sunucuSocket = socket(AF_INET,SOCK_DGRAM)
